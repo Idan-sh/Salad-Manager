@@ -1,6 +1,6 @@
 # Veggie & Salad Stock Management System
 
-### Overview
+## Overview
 
 This project is a `stock management system` designed for a salad and veggie vendor. It includes functionality to manage products, their stock statuses, and dependencies between ingredients and salads. A mock database provides the product data.
 
@@ -10,7 +10,7 @@ This project was completed as a home assignment in **8 hours**.
 
 <br>
    
-### Features Implemented:
+## Features Implemented:
 1. Loading Indicator: Display a “Loading…” message while data is being fetched.   
 2. Hover Effect on Salads: Show a list of ingredients when hovering over salad products.   
 3. Stock Status Indicators:
@@ -27,21 +27,41 @@ This project was completed as a home assignment in **8 hours**.
 
 <br>   
 
-### Styling
+## Styling
 *	Used provided reference pictures as a guideline for styling.
 *	Ensured the app is fully responsive and optimized for mobile devices.
 
 <br>   
 
+## Demonstarion
+
+### Products Page - Manage stock, view salads' ingredients
+https://github.com/user-attachments/assets/141cc047-0650-489a-9f17-28bdcca8c810
+
+<br>   
+
+### New Ingredient and New Salad Pages
+https://github.com/user-attachments/assets/b8d2ad55-b188-4007-8eca-6b7dbc3394a1
+
+
+<br>
+
 # Bonus Feature: Trivia Game
 
-### Overview
+## Overview
 An additional feature integrated into the same project: a trivia game where users answer a series of multiple-choice questions, with their score displayed at the end.   
 
 <br>   
 
-### Features Implemented
+## Features Implemented
 1.	Question Loading: Displays a “Loading…” message while fetching trivia questions and answers.
 2.	Interactive Gameplay: Show one question at a time with multiple answer choices.
 3.	Scoring System: Display the user’s score after the quiz is completed.
 4.	Custom Styling: Styled the game to ensure a seamless and engaging user experience.
+
+<br>   
+
+## Demonstarion
+https://github.com/user-attachments/assets/d3ecde21-4afb-4c34-8826-bf988154b638
+
+
