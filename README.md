@@ -1,64 +1,47 @@
-# Task 1: Stock Management System
+# Veggie & Salad Stock Management System
 
-Backstory:
-You are building a simple stock management system for a salad/veggie vendor. The system uses a mock database to return a set of products and their properties. The vendor offers two types of products:
+### Overview
 
-Salads - Made up of various veggies.
-Veggies - Basic vegetable products.
-Requirements:
+This project is a `stock management system` designed for a salad and veggie vendor. It includes functionality to manage products, their stock statuses, and dependencies between ingredients and salads. A mock database provides the product data.
 
-1. Add a simple "Loading..." message that appears while the data is being fetched. VVVVVVVV
-   Hover Effect on Salads:
+This project was completed as a home assignment in **8 hours**.
 
-2. In Products.tsx, add a hover effect on products of type "salad" that displays the list of ingredients for that salad. VVVVVVVV
-   Stock Status Indicator:
+> This project showcases my proficiency in developing robust features, designing intuitive and responsive user interfaces, and delivering efficient, scalable solutions within tight deadlines.   
 
-3. Products that are in stock should have a green border. VVVVVVVV
-   Products that are out of stock should have a red border. VVVVVVVV
-   Veggie Stock Toggle:
+<br>
+   
+### Features Implemented:
+1. Loading Indicator: Display a “Loading…” message while data is being fetched.   
+2. Hover Effect on Salads: Show a list of ingredients when hovering over salad products.   
+3. Stock Status Indicators:
+   - Products in stock have a green border.
+   - Products out of stock have a red border.
+4. Veggie Stock Toggle:
+   - Add a button next to veggie products to toggle their stock status.
+   - Toggling a veggie also updates the stock status of salads using that veggie.
+5. Client-Side Pagination: Display 10 products per page with seamless navigation.
+6. Ingredient Creation Page: Create new ingredients via a form at `/create-ingredient`.
+7. Salad Creation Page: Create new salads by selecting ingredients via a form at `/create-salad`.
+8. Stock Dependency Handling: Automatically mark salads as out of stock if a dependent veggie is out of stock.
+9. Real-Time Search Filter: Filter products by name dynamically as the user types.
 
-4. Add a button next to each veggie product that allows toggling the stock status. VVVVVVVV
-   When clicked, it should set the veggie (and all salads that use it) as out of stock. VVVVVVVV
-   Clicking again should restore the product(s) to stock. VVVVVVVV
+<br>   
 
-NOTE \*: implement your solution in Server.ts file (feel free to add functions if needed)
+### Styling
+*	Used provided reference pictures as a guideline for styling.
+*	Ensured the app is fully responsive and optimized for mobile devices.
 
-Client-Side Pagination:
+<br>   
 
-5. Implement pagination that displays only 10 products per page. VVVVVVVV
-   Create Ingredient Page:
+# Bonus Feature: Trivia Game
 
-6. Implement a page at /create-ingredient with a simple form to create new ingredients. VVVVVVVV
-   Create Salad Page:
+### Overview
+An additional feature integrated into the same project: a trivia game where users answer a series of multiple-choice questions, with their score displayed at the end.   
 
-7. Implement a page at /create-salad with a simple form to create a new salad made of different ingredients. VVVVVVVV
-   Stock Dependency Handling:
+<br>   
 
-8. If a product (e.g., a veggie) is marked as out of stock, mark all salads that depend on it as out of stock as well. VVVVVVVV
-   Search Filter:
-
-9. Implement the <SearchFilter /> component where users can filter products by name in real-time. VVVVVVVV
-
-Styling:
-see the reference pictures directory that came with the task
-Ensure that the app is fully responsive and looks good on mobile devices.
-
-# Task 2: Trivia Game
-
-Backstory:
-We are building a simple trivia game, where users are asked a series of questions. The user sees one question at a time with multiple answer choices. At the end, the user's score is displayed.
-
-Requirements:
-Implement the trivia game within the same project as the stock management system.
-
-Starting Point:
-
-Use the Trivia.tsx file as a starting point for the trivia game component.
-Loading Mechanism:
-
-Use the same loading mechanism from Task 1 to load questions and answers.
-
-- Styling:
-  Feel free to style this app as you see fit, including adding any components or stylesheets to enhance the user experience.
-  Good luck with your tasks! Let us know if you have any questions.
-# Salad-Manager
+### Features Implemented
+1.	Question Loading: Displays a “Loading…” message while fetching trivia questions and answers.
+2.	Interactive Gameplay: Show one question at a time with multiple answer choices.
+3.	Scoring System: Display the user’s score after the quiz is completed.
+4.	Custom Styling: Styled the game to ensure a seamless and engaging user experience.
