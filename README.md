@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a `stock management system` designed for a salad and veggie vendor. It includes functionality to manage products, their stock statuses, and dependencies between ingredients and salads. A mock database provides the product data.
+This project is a `stock management system` designed for a salad and veggie vendor. It includes functionality to manage products, their stock statuses, and dependencies between ingredients and salads. A mock database with delayed responses simulates a real-time environment.
 
 This project was completed as a home assignment in **8 hours**.
 
