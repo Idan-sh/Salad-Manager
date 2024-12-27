@@ -1,0 +1,20 @@
+:root {
+    --bg-color: rgb(231, 231, 231);
+    --in-stock-color: rgb(84, 227, 84);
+    --out-of-stock-color: rgb(252, 42, 42);
+    --chosen-button-color: rgb(0, 153, 133);
+    --chosen-menu-option-color: rgb(1, 112, 97);
+    --menu-option-color: rgb(0, 153, 133);
+    
+    /* Product */
+    --product-card-bg-color: white;
+    --product-card-button-bg-color-hover: lightgray;
+    --product-card-font-color: rgb(43, 153, 133);
+
+    /* Create New Ingredient */
+    --new-ingredient-bg-color: rgb(249,249,249);
+    --new-ingredient-submit-button-color: rgb(0, 153, 133);
+
+    /* Error messages */
+    --no-available-products-color: black;
+}

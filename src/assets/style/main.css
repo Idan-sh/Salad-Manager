@@ -1,0 +1,17 @@
+/* Setup */
+@import "./setup/variables.css";
+@import "./setup/app.css";
+
+/* Components */
+@import "./components/app-header.css";
+@import "./components/search-bar.css";
+@import "./components/product-card.css";
+@import "./components/product-list.css";
+@import "./components/product-ingredients.css";
+@import "./components/loader.css";
+
+/* Pages */
+@import "./pages/products-page.css";
+@import "./pages/create-ingredient-page.css";
+@import "./pages/create-salad-page.css";
+@import "./pages/trivia-page.css";

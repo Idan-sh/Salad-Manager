@@ -1,0 +1,23 @@
+.product-list {
+    padding: 1rem 0 0;
+    margin-top: 1rem;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    gap: 15px;
+
+    @media (max-width: 768px) {
+    grid-template-columns: repeat(1, minmax(50px, 1fr));    }
+}
+
+.product-list li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    section {
+        display: flex;
+        gap: 10px;
+    }
+}
