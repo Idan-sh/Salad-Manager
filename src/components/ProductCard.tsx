@@ -14,10 +14,10 @@ function ProductCard({ product, onToggleStockClick, products }: ProductCardProps
   const isSalad = product.ingredients.length > 0;
 
   return (
-    <div key={product.id} className={`product-card ${product.in_stock ? "in-stock" : ""}`}>
+    <section key={product.id} className={`product-card ${product.in_stock ? "in-stock" : ""}`}>
       <div className="product-card__title">
         <h1>{product.title}</h1>
-        <p
+        <div
           onMouseEnter={() => setIsIngredientHovered(true)}
           onMouseLeave={() => setIsIngredientHovered(false)}
         >
@@ -27,10 +27,10 @@ function ProductCard({ product, onToggleStockClick, products }: ProductCardProps
           {isIngredientHovered && (
             <ProductIngredients products={products} ingredients={product.ingredients} />
           )}
-        </p>
+        </div>
       </div>
       {!isSalad && <button onClick={() => onToggleStockClick(product.id)}>Toggle in stock</button>}
-    </div>
+    </section>
   );
 }
 

@@ -12,13 +12,13 @@ function ProductIngredients({ ingredients, products }: ProductIngredientsProps) 
   };
 
   return (
-    <div className="product-ingredients">
+    <ul className="product-ingredients">
       {ingredients.map((ingredient) => (
-        <p key={ingredient.product_id}>
+        <li key={ingredient.product_id}>
           {ingredient.quantity} x {getProductNameById(ingredient.product_id)}
-        </p>
+        </li>
       ))}
-    </div>
+    </ul>
   );
 }
 
